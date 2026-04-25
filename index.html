@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Becsa Web - Salud e Internación Domiciliaria</title>
+    <meta name="description"
+        content="Becsa provee servicios de salud e internación domiciliaria con profesionales médicos, kinesiólogos y cuidadores de primer nivel.">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Header / Navbar -->
+    <header class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <span class="logo-text">Becsa</span>
+                <span class="logo-dot">.</span>
+            </a>
+            <nav class="nav-links">
+                <a href="#inicio" class="nav-link active">Inicio</a>
+                <a href="#nosotros" class="nav-link">Nosotros</a>
+                <a href="#medicos" class="nav-link">Médicos</a>
+                <a href="#kinesiologos" class="nav-link">Kinesiólogos</a>
+                <a href="#cuidadores" class="nav-link">Cuidadores</a>
+                <a href="#clientes" class="nav-link">Obras Sociales</a>
+                <a href="#contacto" class="btn btn-primary nav-btn">Contáctanos</a>
+            </nav>
+            <button class="mobile-menu-btn" aria-label="Abrir menú">
+                <span class="material-icons-outlined">menu</span>
+            </button>
+        </div>
+        <!-- Mobile Nav Menu -->
+        <div class="mobile-nav">
+            <a href="#inicio" class="mobile-link">Inicio</a>
+            <a href="#nosotros" class="mobile-link">Nosotros</a>
+            <a href="#medicos" class="mobile-link">Médicos</a>
+            <a href="#kinesiologos" class="mobile-link">Kinesiólogos</a>
+            <a href="#cuidadores" class="mobile-link">Cuidadores</a>
+            <a href="#clientes" class="mobile-link">Obras Sociales</a>
+            <a href="#contacto" class="btn btn-primary mobile-btn">Contáctanos</a>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section id="inicio" class="hero">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <span class="badge fade-in-up">Atención Domiciliaria Premium</span>
+                    <h1 class="hero-title fade-in-up" style="animation-delay: 0.1s;">
+                        Cuidado médico de excelencia <br> <span class="text-highlight">en la comodidad de tu
+                            hogar</span>.
+                    </h1>
+                    <p class="hero-subtitle fade-in-up" style="animation-delay: 0.2s;">
+                        Brindamos servicios integrales de internación domiciliaria con un equipo multidisciplinario de
+                        profesionales comprometidos con tu bienestar y el de tus seres queridos.
+                    </p>
+                    <div class="hero-actions fade-in-up" style="animation-delay: 0.3s;">
+                        <a href="#contacto" class="btn btn-primary btn-lg shadow-hover">Solicitar Asistencia</a>
+                        <a href="#medicos" class="btn btn-outline btn-lg slide-hover">Conocer Servicios</a>
+                    </div>
+
+                    <div class="hero-stats fade-in-up" style="animation-delay: 0.4s;">
+                        <div class="stat-item">
+                            <span class="stat-number">24/7</span>
+                            <span class="stat-label">Disponibilidad</span>
+                        </div>
+                        <div class="stat-divider"></div>
+                        <div class="stat-item">
+                            <span class="stat-number">+500</span>
+                            <span class="stat-label">Familias nos eligen</span>
+                        </div>
+                        <div class="stat-divider"></div>
+                        <div class="stat-item">
+                            <span class="stat-number">100%</span>
+                            <span class="stat-label">Profesionales certificados</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Interactive decorative element or image wrapper for Hero -->
+                <div class="hero-image-wrapper fade-in-up" style="animation-delay: 0.5s;">
+                    <img src="hero_cuidado_mayores.png" alt="Cuidado Profesional en tu Hogar"
+                        class="hero-img hover-lift">
+
+                    <!-- Floating abstract elements -->
+                    <div class="floating-shape shape-1"></div>
+                    <div class="floating-shape shape-2"></div>
+                </div>
+            </div>
+
+            <!-- Bottom decorative wave -->
+            <div class="hero-wave">
+                <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
+                    <path d="M0,0 C240,120 480,120 720,60 C960,0 1200,0 1440,60 L1440,120 L0,120 Z" fill="#F8F9FA">
+                    </path>
+                </svg>
+            </div>
+        </section>
+
+        <!-- About Us Section -->
+        <section id="nosotros" class="section bg-alt" style="padding-top: 3rem;">
+            <div class="container container-reverse-md">
+                <div class="section-image hover-lift fade-in-up" style="animation-delay: 0.2s;">
+                    <img src="sobre_nosotros_equipo_1775491421702.png" alt="Sobre Nosotros" class="feature-img"
+                        style="border-radius: 24px; box-shadow: var(--shadow-xl);">
+                </div>
+                <div class="section-content fade-in-up">
+                    <span class="badge">Nuestra Esencia</span>
+                    <h2 class="section-title">Sobre Nosotros</h2>
+                    <p class="section-subtitle" style="margin-bottom: 2rem;">Bienestar en casa es una organización de
+                        salud que tiene como actividad el cuidado de personas en su domicilio, con patologías de
+                        distinta complejidad. A través de un equipo multidisciplinario de trabajo coordinado.</p>
+
+                    <div class="about-values" style="display: flex; flex-direction: column; gap: 1.5rem;">
+                        <div class="value-item">
+                            <h4 style="color: var(--clr-primary); font-size: 1.25rem; margin-bottom: 0.5rem;">Misión
+                            </h4>
+                            <p style="color: var(--clr-text-main); line-height: 1.6;">Brindar atención domiciliaria de
+                                alta calidad humana, enfocados en el compromiso para generar un excelente vínculo de
+                                empatía, respeto, cordialidad y confianza permanente entre el paciente, la familia y
+                                nuestros profesionales, satisfaciendo sus necesidades.</p>
+                        </div>
+                        <div class="value-item">
+                            <h4 style="color: var(--clr-primary); font-size: 1.25rem; margin-bottom: 0.5rem;">Visión
+                            </h4>
+                            <p style="color: var(--clr-text-main); line-height: 1.6;">Llegar a ser una empresa de
+                                vanguardia en la salud domiciliaria, abarcando todos los contextos sociales, donde los
+                                profesionales crezcan, y el paciente junto a su familia se sientan a gusto, contenidos y
+                                parte de la empresa, alcanzando la máxima satisfacción de atención.</p>
+                        </div>
+                        <div class="value-item">
+                            <h4 style="color: var(--clr-primary); font-size: 1.25rem; margin-bottom: 0.5rem;">Valores
+                            </h4>
+                            <p style="color: var(--clr-text-main); font-weight: 500;">Empatía &bull; Cordialidad &bull;
+                                Contención &bull; Trabajo en Equipo &bull; Integridad &bull; Responsabilidad &bull;
+                                Respeto</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section: Medicos -->
+        <section id="medicos" class="section">
+            <div class="container">
+                <div class="section-header text-center fade-in-up">
+                    <span class="badge">Especialidad</span>
+                    <h2 class="section-title">Médicos a Domicilio</h2>
+                    <p class="section-subtitle">Atención clínica integral sin moverte de tu casa. Evaluaciones,
+                        diagnósticos y seguimiento personalizado.</p>
+                </div>
+
+                <div class="services-grid">
+                    <div class="service-card hover-lift fade-in-up" style="animation-delay: 0.1s;"
+                        onclick="window.location.href='consulta-medica.html'">
+                        <div class="service-icon-bg">
+                            <span class="material-icons-outlined service-icon">medical_services</span>
+                        </div>
+                        <h3>Consulta Médica General</h3>
+                        <p>Evaluación clínica completa, diagnóstico y tratamiento de afecciones de baja y mediana
+                            complejidad en el hogar.</p>
+                    </div>
+
+                    <div class="service-card hover-lift fade-in-up" style="animation-delay: 0.2s;"
+                        onclick="window.location.href='seguimiento-cronico.html'">
+                        <div class="service-icon-bg">
+                            <span class="material-icons-outlined service-icon">monitor_heart</span>
+                        </div>
+                        <h3>Seguimiento Crónico</h3>
+                        <p>Control periódico de pacientes con enfermedades crónicas (hipertensión, diabetes, afecciones
+                            cardíacas, etc).</p>
+                    </div>
+
+                    <div class="service-card hover-lift fade-in-up" style="animation-delay: 0.3s;"
+                        onclick="window.location.href='recetas-derivaciones.html'">
+                        <div class="service-icon-bg">
+                            <span class="material-icons-outlined service-icon">vaccines</span>
+                        </div>
+                        <h3>Recetas y Derivaciones</h3>
+                        <p>Emisión de recetas médicas, órdenes para estudios complementarios y derivaciones a
+                            especialistas.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section: Kinesiologos -->
+        <section id="kinesiologos" class="section bg-alt">
+            <div class="container container-reverse-md">
+                <div class="section-content fade-in-up">
+                    <span class="badge">Rehabilitación</span>
+                    <h2 class="section-title">Kinesiología y Fisioterapia</h2>
+                    <p class="section-subtitle">Recuperá tu movilidad y calidad de vida con nuestros programas de
+                        rehabilitación a domicilio, adaptados a tus necesidades específicas.</p>
+
+                    <ul class="feature-list">
+                        <li>
+                            <span class="material-icons-outlined check-icon">check_circle</span>
+                            <span>Rehabilitación traumatológica y postoperatoria.</span>
+                        </li>
+                        <li>
+                            <span class="material-icons-outlined check-icon">check_circle</span>
+                            <span>Kinesiología respiratoria (adultos y pediátrica).</span>
+                        </li>
+                        <li>
+                            <span class="material-icons-outlined check-icon">check_circle</span>
+                            <span>Rehabilitación neurológica.</span>
+                        </li>
+                    </ul>
+
+                    <a href="kinesiologia-descripcion.html" class="btn btn-primary mt-4">Ver más</a>
+                </div>
+
+                <div class="section-image hover-lift fade-in-up" style="animation-delay: 0.2s;">
+                    <img src="kinesiologia_domiciliaria.png" alt="Kinesiología y Fisioterapia" class="feature-img">
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section: Cuidadores -->
+        <section id="cuidadores" class="section">
+            <div class="container container-normal-md">
+                <div class="section-image hover-lift fade-in-up" style="animation-delay: 0.2s;">
+                    <img src="cuidador_domiciliario.png" alt="Acompañamiento y Cuidado" class="feature-img">
+                </div>
+
+                <div class="section-content fade-in-up">
+                    <span class="badge">Acompañamiento</span>
+                    <h2 class="section-title">Cuidadores Domiciliarios</h2>
+                    <p class="section-subtitle">Personal capacitado para asistir en las actividades de la vida diaria,
+                        brindando contención, seguridad y compañía.</p>
+
+                    <ul class="feature-list">
+                        <li>
+                            <span class="material-icons-outlined check-icon">check_circle</span>
+                            <span>Asistencia en higiene y confort personal.</span>
+                        </li>
+                        <li>
+                            <span class="material-icons-outlined check-icon">check_circle</span>
+                            <span>Administración de medicación vía oral supervisada.</span>
+                        </li>
+                        <li>
+                            <span class="material-icons-outlined check-icon">check_circle</span>
+                            <span>Acompañamiento diurno y nocturno, o en sanatorios.</span>
+                        </li>
+                    </ul>
+
+                    <a href="cuidadores-descripcion.html" class="btn btn-primary mt-4">Ver más</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Clients / Partners Section -->
+        <section id="clientes" class="section">
+            <div class="container">
+                <div class="section-header text-center fade-in-up">
+                    <span class="badge" style="background-color: rgba(74, 175, 79, 0.2);">Nuestros Clientes</span>
+                    <h2 class="section-title">Obras Sociales y Prepagas</h2>
+                    <p class="section-subtitle">Trabajamos en conjunto con las principales coberturas médicas para
+                        llevar salud a tu hogar.</p>
+                </div>
+                <div class="clients-grid fade-in-up" style="animation-delay: 0.2s;">
+                    <div class="client-badge">Andar Salud</div>
+                    <div class="client-badge">Apos</div>
+                    <div class="client-badge">Medicals</div>
+                    <div class="client-badge">Medicus</div>
+                    <div class="client-badge">Osmecom</div>
+                    <div class="client-badge">Ospoce</div>
+                    <div class="client-badge">Ospiv</div>
+                    <div class="client-badge">Ospip</div>
+                    <div class="client-badge">Palcare</div>
+                    <div class="client-badge">Pami</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contacto" class="section bg-alt">
+            <div class="container">
+                <div class="contact-wrapper glass-card fade-in-up">
+                    <div class="contact-info">
+                        <h2 class="section-title text-white">Contactanos</h2>
+                        <p class="text-white mb-4">Estamos a tu disposición para responder todas tus consultas y
+                            coordinar el mejor servicio médico domiciliario para vos o tus seres queridos.</p>
+
+                        <div class="contact-item">
+                            <span class="material-icons-outlined">phone</span>
+                            <div>
+                                <h4>Teléfono</h4>
+                                <p>+54 11 1234-5678</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <span class="material-icons-outlined">mail</span>
+                            <div>
+                                <h4>Email</h4>
+                                <p><a href="mailto:info@bienestarencasa.com" target="_blank"
+                                        class="email-link">info@bienestarencasa.com</a></p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <span class="material-icons-outlined">location_on</span>
+                            <div>
+                                <h4>Zona de Cobertura</h4>
+                                <p>CABA y GBA (Consultá por tu localidad)</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-container">
+                        <div class="form-header fade-in-up" style="animation-delay: 0.1s">
+                            <h3>Solicitud de Atención Domiciliaria</h3>
+                            <p>Complete el siguiente formulario para que nuestro equipo médico evalúe su caso y coordine
+                                los servicios necesarios. Responderemos a la brevedad.</p>
+                        </div>
+
+                        <form id="contact-form" class="contact-form detailed-form fade-in-up"
+                            action="/api/contact" method="POST"
+                            style="animation-delay: 0.2s">
+
+                            <!-- Section 1 -->
+                            <fieldset class="form-section">
+                                <legend>1. Datos del Paciente y Patología</legend>
+                                <div class="form-row">
+                                    <div class="form-group">
+                                        <label for="paciente-nombre">Nombre y Apellido del Paciente *</label>
+                                        <input type="text" id="paciente-nombre" name="paciente_nombre" required
+                                            placeholder="Ej. Juan Pérez">
+                                    </div>
+                                    <div class="form-group grid-small">
+                                        <div>
+                                            <label for="dni">DNI *</label>
+                                            <input type="text" id="dni" name="dni" required placeholder="Documento">
+                                        </div>
+                                        <div>
+                                            <label for="edad">Edad *</label>
+                                            <input type="number" id="edad" name="edad" required placeholder="Años">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="form-row">
+                                    <div class="form-group">
+                                        <label for="obra-social">Obra Social o Prepaga</label>
+                                        <input type="text" id="obra-social" name="obra_social"
+                                            placeholder="Dejar en blanco si es particular">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="domicilio">Domicilio de Atención *</label>
+                                        <input type="text" id="domicilio" name="domicilio" required
+                                            placeholder="Calle, Número, Localidad">
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="diagnostico">Diagnóstico o Patología Principal *</label>
+                                    <textarea id="diagnostico" name="diagnostico" rows="3" required
+                                        placeholder="Describa brevemente la condición médica actual por la que solicita el servicio..."></textarea>
+                                </div>
+                            </fieldset>
+
+                            <!-- Section 2 -->
+                            <fieldset class="form-section">
+                                <legend>2. Servicios Requeridos</legend>
+                                <p class="form-instruction">Seleccione los servicios e indique la frecuencia y cantidad
+                                    de sesiones (ej. 3 veces por semana, durante 1 mes).</p>
+
+                                <div class="checkbox-group">
+                                    <label class="checkbox-label"><input type="checkbox" name="servicios_medicos"
+                                            value="true"> Médicos</label>
+                                    <label class="checkbox-label"><input type="checkbox" name="servicios_kinesiologia"
+                                            value="true"> Kinesiología</label>
+                                    <label class="checkbox-label"><input type="checkbox" name="servicios_cuidadores"
+                                            value="true"> Cuidadores</label>
+                                </div>
+
+                                <div class="form-group mt-2">
+                                    <label for="frecuencia">Frecuencia y Cantidad de Sesiones *</label>
+                                    <textarea id="frecuencia" name="frecuencia" rows="2" required
+                                        placeholder="Ej. 3 veces por semana, durante 1 mes"></textarea>
+                                </div>
+                            </fieldset>
+
+                            <!-- Section 3 -->
+                            <fieldset class="form-section">
+                                <legend>3. Datos de Contacto del Familiar / Solicitante</legend>
+                                <div class="form-row">
+                                    <div class="form-group">
+                                        <label for="contacto-nombre">Nombre del Contacto *</label>
+                                        <input type="text" id="contacto-nombre" name="contacto_nombre" required
+                                            placeholder="Ej. María Pérez">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="vinculo">Vínculo con el paciente *</label>
+                                        <input type="text" id="vinculo" name="vinculo" required
+                                            placeholder="Ej. Hijo/a, Esposo/a">
+                                    </div>
+                                </div>
+
+                                <div class="form-row">
+                                    <div class="form-group">
+                                        <label for="telefono">Teléfono *</label>
+                                        <input type="tel" id="telefono" name="telefono" required
+                                            placeholder="Ej. 11 1234 5678">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="email">Correo Electrónico *</label>
+                                        <input type="email" id="email" name="email" required
+                                            placeholder="correo@ejemplo.com">
+                                    </div>
+                                </div>
+                            </fieldset>
+
+                            <div class="form-submit-area">
+                                <button type="submit" class="btn btn-primary btn-submit">Enviar Solicitud</button>
+                                <p class="privacy-notice">Al enviar este formulario acepta nuestras políticas de
+                                    privacidad.</p>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <a href="#" class="logo">
+                    <span class="logo-text text-white">Becsa</span>
+                    <span class="logo-dot">.</span>
+                </a>
+                <p class="footer-desc">Excelencia en salud e internación domiciliaria. Tu tranquilidad en manos
+                    expertas.</p>
+            </div>
+
+            <div class="footer-links">
+                <h3>Servicios</h3>
+                <a href="#medicos">Médicos</a>
+                <a href="#kinesiologos">Kinesiólogos</a>
+                <a href="#cuidadores">Cuidadores</a>
+            </div>
+
+            <div class="footer-social">
+                <h3>Seguinos</h3>
+                <div class="social-icons">
+                    <a href="#" class="social-btn" aria-label="Facebook">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                        </svg>
+                    </a>
+                    <a href="#" class="social-btn" aria-label="Instagram">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2026 Becsa. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+
+    <!-- Floating Chatbot Widget -->
+    <div class="chatbot-wrapper">
+        <button id="chatbot-toggle" class="btn btn-primary" aria-label="Abrir chat" style="width: 60px; height: 60px; border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: var(--shadow-xl); cursor: pointer; border: none; z-index: 10000; position: relative;">
+            <span class="material-icons-outlined" style="font-size: 28px;">chat</span>
+        </button>
+        
+        <div id="chatbot-window" class="chatbot-window hidden">
+            <div class="chatbot-header">
+                <div class="chatbot-title">
+                    <span class="material-icons-outlined">support_agent</span>
+                    <h4>Asistente Becsa</h4>
+                </div>
+                <button id="chatbot-close" aria-label="Cerrar chat"><span class="material-icons-outlined">close</span></button>
+            </div>
+            
+            <div id="chatbot-messages" class="chatbot-messages">
+                <div class="bot-msg">
+                    <p>¡Hola! Soy el asistente virtual de Bienestar en Casa. ¿Sobre qué servicio te gustaría consultar?</p>
+                    <div class="chat-options">
+                        <button class="chat-chip" data-topic="medicos">Médicos a Domicilio</button>
+                        <button class="chat-chip" data-topic="kinesiologia">Kinesiología</button>
+                        <button class="chat-chip" data-topic="cuidadores">Cuidadores</button>
+                        <button class="chat-chip" data-topic="cobertura">Obras Sociales</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="chatbot-input">
+                <input type="text" id="chat-input" placeholder="Escribe tu consulta...">
+                <button id="chat-send"><span class="material-icons-outlined">send</span></button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

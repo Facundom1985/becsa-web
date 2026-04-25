@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta Médica General | Becsa Web</title>
+    <meta name="description"
+        content="Conoce los detalles de nuestro servicio de Consulta Médica General a domicilio. Atención clínica completa y personalizada sin moverte de tu hogar.">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .service-detail-hero {
+            padding: 10rem 0 5rem 0;
+            background: linear-gradient(135deg, rgba(42, 157, 143, 0.1) 0%, rgba(248, 249, 250, 0.5) 100%);
+            text-align: center;
+        }
+
+        .service-detail-content {
+            padding: 5rem 0;
+        }
+
+        .content-card {
+            background: var(--clr-white);
+            border-radius: 24px;
+            padding: 4rem;
+            box-shadow: var(--shadow-lg);
+            margin-top: -3rem;
+            position: relative;
+            z-index: 10;
+        }
+
+        .content-card h2 {
+            color: var(--clr-primary-dark);
+            margin-bottom: 1.5rem;
+            font-size: 2rem;
+        }
+
+        .content-card p {
+            margin-bottom: 2rem;
+            font-size: 1.1rem;
+            color: var(--clr-text-main);
+            line-height: 1.8;
+        }
+
+        .content-card ul {
+            list-style: none;
+            margin-bottom: 3rem;
+        }
+
+        .content-card li {
+            display: flex;
+            align-items: flex-start;
+            gap: 1rem;
+            margin-bottom: 1rem;
+            font-size: 1.05rem;
+        }
+
+        @media(max-width: 768px) {
+            .content-card {
+                padding: 2rem;
+                margin-top: -2rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header / Navbar -->
+    <header class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <span class="logo-text">Becsa</span>
+                <span class="logo-dot">.</span>
+            </a>
+            <nav class="nav-links">
+                <a href="index.html#inicio" class="nav-link">Inicio</a>
+                <a href="index.html#nosotros" class="nav-link">Nosotros</a>
+                <a href="index.html#medicos" class="nav-link active">Médicos</a>
+                <a href="index.html#kinesiologos" class="nav-link">Kinesiólogos</a>
+                <a href="index.html#cuidadores" class="nav-link">Cuidadores</a>
+                <a href="index.html#contacto" class="btn btn-primary nav-btn">Contáctanos</a>
+            </nav>
+            <button class="mobile-menu-btn" aria-label="Abrir menú">
+                <span class="material-icons-outlined">menu</span>
+            </button>
+        </div>
+        <!-- Mobile Nav Menu -->
+        <div class="mobile-nav">
+            <a href="index.html#inicio" class="mobile-link">Inicio</a>
+            <a href="index.html#nosotros" class="mobile-link">Nosotros</a>
+            <a href="index.html#medicos" class="mobile-link">Médicos</a>
+            <a href="index.html#kinesiologos" class="mobile-link">Kinesiólogos</a>
+            <a href="index.html#cuidadores" class="mobile-link">Cuidadores</a>
+            <a href="index.html#contacto" class="btn btn-primary mobile-btn">Contáctanos</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero del Servicio -->
+        <section class="service-detail-hero">
+            <div class="container">
+                <span class="badge fade-in-up">Servicio de Especialidad</span>
+                <h1 class="hero-title fade-in-up" style="animation-delay: 0.1s;">Consulta Médica General</h1>
+                <p class="hero-subtitle fade-in-up" style="animation-delay: 0.2s;" style="margin: 0 auto;">Evaluación
+                    clínica completa, diagnóstico y tratamiento de afecciones de baja y mediana complejidad, todo en la
+                    comodidad de su hogar.</p>
+            </div>
+        </section>
+
+        <!-- Contenido -->
+        <section class="service-detail-content bg-alt">
+            <div class="container">
+                <div class="content-card fade-in-up" style="animation-delay: 0.3s;">
+                    <h2>¿En qué consiste el servicio?</h2>
+                    <p>
+                        La <strong>Consulta Médica General a Domicilio</strong> está diseñada para evitar traslados
+                        innecesarios y prolongadas esperas en guardias o sanatorios. Nuestros profesionales médicos de
+                        primer nivel se trasladan hasta su hogar, portando todo el equipamiento necesario para realizar
+                        una revisión exhaustiva, diagnosticar y confeccionar su plan de tratamiento.
+                    </p>
+                    <p>
+                        Esta modalidad es ideal tanto para chequeos de rutina, como para urgencias de baja complejidad,
+                        tales como cuadros febriles, malestares gastrointestinales, infecciones respiratorias leves y
+                        dolores articulares agudos.
+                    </p>
+
+                    <h2>Beneficios Principales</h2>
+                    <ul>
+                        <li>
+                            <span class="material-icons-outlined check-icon">check_circle</span>
+                            <span><strong>Eficiencia y Confort:</strong> Atención personalizada sin moverse de su
+                                cuarto.</span>
+                        </li>
+                        <li>
+                            <span class="material-icons-outlined check-icon">check_circle</span>
+                            <span><strong>Reducción de Riesgos:</strong> Minimiza el riesgo de contagios asociados a
+                                ámbitos hospitalarios.</span>
+                        </li>
+                        <li>
+                            <span class="material-icons-outlined check-icon">check_circle</span>
+                            <span><strong>Tratamiento Inmediato:</strong> Emisión de recetas para medicamentos y
+                                derivaciones si fuesen necesarias, emitidas en el acto.</span>
+                        </li>
+                    </ul>
+
+                    <div class="text-center" style="margin-top: 4rem;">
+                        <a href="index.html#medicos" class="btn btn-outline btn-lg">Volver a Servicios</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <a href="index.html" class="logo">
+                    <span class="logo-text text-white">Becsa</span>
+                    <span class="logo-dot">.</span>
+                </a>
+                <p class="footer-desc">Excelencia en salud e internación domiciliaria. Tu tranquilidad en manos
+                    expertas.</p>
+            </div>
+
+            <div class="footer-links">
+                <h3>Servicios</h3>
+                <a href="index.html#medicos">Médicos</a>
+                <a href="index.html#kinesiologos">Kinesiólogos</a>
+                <a href="index.html#cuidadores">Cuidadores</a>
+            </div>
+
+            <div class="footer-social">
+                <h3>Seguinos</h3>
+                <div class="social-icons">
+                    <a href="#" class="social-btn" aria-label="Facebook">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                        </svg>
+                    </a>
+                    <a href="#" class="social-btn" aria-label="Instagram">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2026 Becsa. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
